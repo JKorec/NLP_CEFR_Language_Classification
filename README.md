@@ -13,3 +13,13 @@ The project compares simple linguistic baselines with a BERT-based classifier fo
 The Common European Framework of Reference for Languages (CEFR) is a standardized system for describing language proficiency. This project explores whether NLP models can automatically classify English sentences by CEFR level and provide the foundation for real-time learner feedback.
 
 The main research goal is to evaluate whether contextual language models such as BERT outperform simpler linguistic baselines like word length, type-token ratio, and parser-based features.
+
+
+
+**Authors**
+
+Bruno Cassani, Jan Korec, Colin Norstad, Max Zhang
+
+**Course**
+
+CSCI3349: Natural Language Processing offered by the Boston College Department of Computer Science
