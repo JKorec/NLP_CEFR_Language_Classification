@@ -6,7 +6,15 @@ The project compares simple linguistic baselines with a BERT-based classifier fo
 
 1. **3-class classification:** A, B, C  
 
-2. **6-class classification:** A1, A2, B1, B2, C1, C2  
+2. **6-class classification:** A1, A2, B1, B2, C1, C2
+
+**Authors**
+
+Bruno Cassani, Jan Korec, Colin Norstad, Max Zhang
+
+**Course**
+
+CSCI3349: Natural Language Processing offered by the Boston College Department of Computer Science
 
 ## Project Overview
 
@@ -16,10 +24,15 @@ The main research goal is to evaluate whether contextual language models such as
 
 
 
-**Authors**
+## Data
 
-Bruno Cassani, Jan Korec, Colin Norstad, Max Zhang
+The project uses two datasets:
 
-**Course**
+* An open-source GitHub dataset based on CEFR-labeled English sentences
+* A Kaggle dataset containing CEFR-labeled English paragraphs
 
-CSCI3349: Natural Language Processing offered by the Boston College Department of Computer Science
+The datasets were cleaned and combined for model training. The Kaggle data required additional preprocessing because paragraph-level labels do not always apply cleanly to every sentence within the paragraph.
+
+
+
+
