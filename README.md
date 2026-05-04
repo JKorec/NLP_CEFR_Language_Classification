@@ -46,3 +46,7 @@ The datasets were cleaned and combined for model training. The Kaggle data requi
 [BERT Non Simplified](BERT_Non_Simplified.ipynb) contains the code for the BERT model on the non-simplified dataset.
 
 [Experiments BERT](ExperimentsBert.ipynb) contains the code for the BERT model on the simplified dataset.
+
+## Slide Deck
+
+The slide deck that was used to present this project can be viewed [here](NLP_Slide_Deck.pptx). The presentation took place on Tuesday, April 28th, 2026.
