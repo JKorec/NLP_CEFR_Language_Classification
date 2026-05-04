@@ -28,11 +28,21 @@ The main research goal is to evaluate whether contextual language models such as
 
 The project uses two datasets:
 
-* An open-source GitHub dataset based on CEFR-labeled English sentences
-* A Kaggle dataset containing CEFR-labeled English paragraphs
+* An open-source GitHub dataset based on CEFR-labeled English sentences. View: [Combined sentences](combined.txt)
+* A Kaggle dataset containing CEFR-labeled English paragraphs. View: [CEFR dataset](cefr_leveled_texts.csv)
 
 The datasets were cleaned and combined for model training. The Kaggle data required additional preprocessing because paragraph-level labels do not always apply cleanly to every sentence within the paragraph.
 
+## Code Overview
 
+[Enhanced Setup](Enhanced%20Setup.ipynb) contains all of the data preprocessing and class partitions.
 
+[NLP StatsGen](NLP%20StatsGen.ipynb) contains code that displays the number of sentences corresponding to each category.
 
+[NLP Experiments](NLP%20Experiments.ipynb) contains the code for the initial baselines.
+
+[Experiments Parser](Experiments%20Parser.ipynb) contains the code for the parser baseline.
+
+[BERT Non Simplified](BERT_Non_Simplified.ipynb) contains the code for the BERT model on the non-simplified dataset.
+
+[Experiments BERT](ExperimentsBert.ipynb) contains the code for the BERT model on the simplified dataset.
