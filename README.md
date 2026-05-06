@@ -23,7 +23,7 @@ The Common European Framework of Reference for Languages (CEFR) is a standardize
 The main research goal is to evaluate whether contextual language models such as BERT outperform simpler linguistic baselines like word length, type-token ratio, and parser-based features.
 
 
-## Data
+## Data Overview
 
 The project uses two datasets:
 
@@ -36,7 +36,7 @@ The datasets were cleaned and combined for model training. The Kaggle data requi
 
 The full dataset with augmented data and training/testing splits can be viewed [here](data)
 
-## Code Overview
+## Code/Directory Overview
 
 [Enhanced Setup](Enhanced%20Setup.ipynb) contains all of the data preprocessing and class partitions.
 
