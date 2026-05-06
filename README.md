@@ -22,7 +22,18 @@ The Common European Framework of Reference for Languages (CEFR) is a standardize
 
 The main research goal is to evaluate whether contextual language models such as BERT outperform simpler linguistic baselines like word length, type-token ratio, and parser-based features.
 
+## Repository Structure
 
+├── data/                          # Processed and augmented datasets
+├── combined.txt                   # GitHub CEFR sentence dataset
+├── cefr_leveled_texts.csv         # Kaggle CEFR paragraph dataset
+├── Enhanced Setup.ipynb           # Data preprocessing and train/test splits
+├── NLP StatsGen.ipynb             # Dataset statistics
+├── NLP Experiments.ipynb          # Initial baseline experiments
+├── Experiments Parser.ipynb       # Parser-based baseline
+├── BERT_Non_Simplified.ipynb      # BERT on original dataset
+├── ExperimentsBert.ipynb          # BERT on simplified dataset
+└── NLP_Slide_Deck.pptx            # Final presentation slides
 
 ## Data
 
@@ -53,6 +64,40 @@ The full dataset with augmented data and training/testing splits can be viewed [
 
 Note: If you would like to run this code, please run it in the order that it appears in this section
 
+
+## External Libraries and Models
+
+This project uses several non-standard NLP libraries:
+
+- Hugging Face Transformers  
+  https://huggingface.co/docs/transformers/index
+
+- Hugging Face Datasets  
+  https://huggingface.co/docs/datasets/index
+
+- Hugging Face Evaluate  
+  https://huggingface.co/docs/evaluate/index
+
+- Benepar (Berkeley Neural Parser)  
+  https://github.com/nikitakit/self-attentive-parser
+
+- NLTK  
+  https://www.nltk.org/
+
+Additional Python standard libraries used include:
+- pickle
+- collections
+
+## Model Used
+
+The pretrained transformer model used in this project was:
+
+- distilbert-base-uncased  
+  https://huggingface.co/distilbert/distilbert-base-uncased
 ## Slide Deck
 
 The slide deck that was used to present this project can be viewed [here](NLP_Slide_Deck.pptx). The presentation took place on Tuesday, April 28th, 2026.
+
+
+## Note
+No external notebooks or tutorials beyond official library documentation were used.
