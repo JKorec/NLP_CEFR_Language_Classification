@@ -50,7 +50,7 @@ The full dataset with augmented data and training/testing splits can be viewed [
 
 [Experiments BERT](ExperimentsBert.ipynb) contains the code for the BERT model on the simplified dataset.
 
-Note: If you would like to run this code, please run it in the order that it appears in this section
+Note: If you would like to run this code, please run it in the order that it appears in this section. Download the Python notebooks, and ideally run them on Google CoLab. When running the code with BERT, please make sure that you are connected to a GPU for faster runitmes.
 
 
 ## External Libraries and Models
