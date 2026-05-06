@@ -22,18 +22,6 @@ The Common European Framework of Reference for Languages (CEFR) is a standardize
 
 The main research goal is to evaluate whether contextual language models such as BERT outperform simpler linguistic baselines like word length, type-token ratio, and parser-based features.
 
-## Repository Structure
-
-├── data/                          # Processed and augmented datasets
-├── combined.txt                   # GitHub CEFR sentence dataset
-├── cefr_leveled_texts.csv         # Kaggle CEFR paragraph dataset
-├── Enhanced Setup.ipynb           # Data preprocessing and train/test splits
-├── NLP StatsGen.ipynb             # Dataset statistics
-├── NLP Experiments.ipynb          # Initial baseline experiments
-├── Experiments Parser.ipynb       # Parser-based baseline
-├── BERT_Non_Simplified.ipynb      # BERT on original dataset
-├── ExperimentsBert.ipynb          # BERT on simplified dataset
-└── NLP_Slide_Deck.pptx            # Final presentation slides
 
 ## Data
 
